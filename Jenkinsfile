@@ -11,6 +11,6 @@ node {
   sh "docker push gideonkago/kago_exam:1.0"
   }
   stage ('Deploy Docker Image'){
-  sh "docker container run --detach --publish 1280:80 --name kago_exam_2 gideonkago/kago_exam:1.0"
+  sh "docker container run --detach --publish 2280:80 --name kago_exam_3 gideonkago/kago_exam:1.0"
   }
 }
