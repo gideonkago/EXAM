@@ -1,5 +1,5 @@
 node {
-  stage ('Clone Repository") {
+  stage ('Clone Repository') {
   checkout scm
       }
   stage ('Build a Docker Image'){
