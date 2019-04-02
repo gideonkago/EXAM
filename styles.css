@@ -1,0 +1,160 @@
+.head
+{
+	background-color: green;
+  border: bold green ;
+  height:100% ;
+  width:100%;
+  text-align:center;
+  font-size: 200%;
+  font-display: float;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.div1
+{
+  background-color: white;
+  border: bold green;
+  display:flex ;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  flex-base: 50%;
+  }
+.div2
+{
+  
+  color:green;
+  overflow:justify;
+  background-color: black;
+
+}
+.div3
+{
+  color:green;
+  overflow:justify;
+  background-color: black;
+  display: flex;
+}
+.div4
+{
+  color:blue;
+  justify-content: overflow;
+  
+}
+.div5
+{
+
+  background-color: white;
+  float: left;
+  display:flex;
+
+
+}
+
+h1
+{
+  align-content: center;
+  border: 1px solid green;
+  padding: 3px;
+  justify-content: center;
+   border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  flex-grow: 0; 
+  flex-shrink: 0; 
+  flex-base: 50%;
+ }
+ 
+#border
+{
+  font-family: Sans-Serif;
+  font-size: 30px;
+  float: 10% ;
+  padding: 40px;
+  border-style: bold;
+  border-width: 3px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-color: red;
+}
+
+h2
+{
+  text-align: left;
+  color: Blue;
+  font-family: Arial;
+  font-size: 20px;
+ 
+}
+.MASOKO:hover{ 
+  background-color: green;
+}
+.CLOUD:hover{
+  background-color: green;
+}
+.MPESA:hover{ 
+  background-color: green;
+}
+.FTTH:hover{  
+  background-color: green;
+}
+.DIGIFARM:hover{
+  background-color: green;
+}
+.SEARCH:hover{ 
+  background-color: green;
+}
+#header{
+    background-color:green;
+    height:50px;
+    width:100%;
+    color:white;
+    font-weight:400;
+    font-size:15px;
+    
+}
+#header1, #header2{
+    padding:0px;
+    
+}
+#header1 p{
+    display:flex;
+    float:left;
+    margin:10px 20px;
+    }
+#header2 p{
+    display:flex;
+    float:right;
+    margin:10px 20px;
+    }
+.column
+{
+  display:flex ;
+  width:100%
+}
+.left
+{
+  display:left;
+  width:25%;
+}
+.middle
+{
+  display:flex;
+  ustify-content:center;
+  width:50%;
+}
+.right
+{
+ display:flex;
+ justify-content:flex-end;
+ width:25%; 
+ background-color: green;
+}
