@@ -6,7 +6,7 @@ node {
   sh "sudo docker build -t kago_exam:1.0 ."
   }
   stage ('Push Image to Docker Hub'){
-  sh "sudo docker login -u 'gideonkago' -p 'Kitale123$' "
+  sh "sudo docker login -u 'gideonkago' -p 'Kitale12345' "
   sh "sudo docker tag kago_exam:1.0 gideonkago/kago_exam:1.0"
   sh "sudo docker push gideonkago/kago_exam:1.0"
   }
