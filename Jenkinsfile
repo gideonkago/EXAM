@@ -3,14 +3,14 @@ node {
   checkout scm
       }
   stage ('Build a Docker Image'){
-  sh "docker build -t kago_exam:1.0 ."
+  sh "sudo docker build -t kago_exam:1.0 ."
   }
   stage ('Push Image to Docker Hub'){
-  sh "docker login -u 'gideonkago' -p 'Kitale12345' "
-  sh "docker tag kago_exam:1.0 gideonkago/kago_exam:1.0"
-  sh "docker push gideonkago/kago_exam:1.0"
+  sh "sudo docker login -u 'gideonkago' -p 'Kitale123$' "
+  sh "sudo docker tag kago_exam:1.0 gideonkago/kago_exam:1.0"
+  sh "sudo docker push gideonkago/kago_exam:1.0"
   }
   stage ('Deploy Docker Image'){
-  sh "docker container run --detach --publish 8002:80 --name web6 gideonkago/kago_exam:1.0"
+  sh "sudo docker container run --detach --publish 8002:80 --name web6 gideonkago/kago_exam:1.0"
   }
 }
